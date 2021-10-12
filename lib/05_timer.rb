@@ -27,5 +27,5 @@ end
 
 ### best way ###
 # def time_string(s)
-# Time.at(s).utc.strftime("%H:%M:%S")
+# Time.at(s).utc.strftime("%H:%M:%S") >>> transformer s avec une base UTC à 0 en format (...) avec % pour nommer les valeurs
 # end

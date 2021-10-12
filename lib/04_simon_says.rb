@@ -6,9 +6,8 @@ def shout(string)
   string.upcase
 end
 
-def repeat(string, x=2)
-  rep + ((" ")*((x - 1))
-  rep(x = 2)
+def repeat (word, n=2)
+  word + ((' ' + word) * (n-1))
 end
 
 def start_of_word(s,n)
@@ -23,8 +22,7 @@ def first_word(string)
   end
   return array[0]
 end
-
-# autre solution >>> string.split.first
+### autre solution >>> string.split.first
 
 def titleize(string)
   words = string.split(" ")

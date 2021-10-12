@@ -10,6 +10,8 @@ def sum(array) # See inject method >>> https://medium.com/@terrancekoar/inject-m
   array.inject(0) { |result, element| result + element }
 end
 
+##### cf fonction array.total
+
 ##### Hard way of inject method (idem as reduce method)
 # def sum(array)
 #  sum = 0
@@ -22,6 +24,10 @@ end
 def multiply(n1, n2)
   n1.to_i * n2.to_i
 end
+
+#autre solution :
+#def multiply (*number)
+#return number.reduce(:*)
 
 def power(n1, n2)
   n1.to_i ** n2.to_i
